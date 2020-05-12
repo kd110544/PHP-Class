@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+h1{
+    /*h1 樣式取代*/
+    font-family: "標楷體","新細明體","微軟正黑體";
+    font-size: 60px;
+    color:rgb(18, 189, 241);
+    font-weight: bold;
+}
+h2{
+    /*h1 樣式取代*/
+    font-family: "微軟正黑體", "蘋方-繁";
+    font-size: 48px;
+    color:#69f02a;
+    font-style: italic;
+}
+#titleID{
+    font-family: "標楷體";
+    font-size: 30px;
+    color: #ec22dc;
+    font-weight: bold;
+}
+.title1{
+    font-family: "微軟正黑體";
+    font-size: 54px;
+    color:#fdcc21;
+    text-decoration:overline underline line-through;
+}
+.ulone{
+    font-family: "微軟正黑體";
+    font-size: 24px;
+    color:rgb(45, 76, 211);
+    list-style-type: none;
+    list-style-image: url("wayne.png");
+}
+.ultwo{
+    font-family: "微軟正黑體";
+    font-size: 20px;
+    color:#c20b0b;
+    list-style-type:lower-latin;
+    list-style-image: none;
+}
+.para1{
+    font-family: "微軟正黑體";
+    font-size: 20px;
+    color: #0000FF;
+    letter-spacing: 2px;
+    line-height: 50px;
+    text-indent: 44px;
+    padding-top: 0px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 0px;
+
+}
+.wordmark1{
+    background-color: yellow;
+}
+.workmark2{
+    background-color: #21ff21;
+}
+.workmark3{
+    background-color: #ffa8a8;
+    text-decoration: line-through;
+}
+.div1{
+    border-width: 4px;
+    border-style: dotted;
+    border-color: #11FF99;
+    border-top-color: rgb(255, 199, 14);
+    border-left-color: #eb2929;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 100px;
+    border-top-width: 5px;
+    /*background-image: url("000123.jpeg");*/
+    background-color: #f0d1d1;
+    margin: 90px;
+    cursor: n-resize;
+}
